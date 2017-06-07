@@ -248,6 +248,7 @@ public:
 							target[channel] = notes[channel].period;
 						}
 						std::cout << "ptarget set:" << target[channel] << std::endl;
+						assert(target[channel] != 0);
 						dontchangeperiodpls = true;
 						break;
 					}
@@ -363,7 +364,9 @@ public:
 							if (i == 0) {
 								break;
 							}
-
+							if (cliveperiod[channel] == target[channel]) {
+								break;
+							}
 							if (cliveperiod[channel] > target[channel]) {
 								cliveperiod[channel] -= (lastportamento[channel]);
 								if (cliveperiod[channel] < target[channel]) {
@@ -470,7 +473,11 @@ public:
 					for (int u = 0; u < samplespertick(); u++) {
 						allstream[u] = ((int)sampledataout[1][u] + (int)sampledataout[0][u] + (int)sampledataout[2][u] + (int)sampledataout[3][u])/4;
 					}
+					for (int i = 0; i < 4; i++) {
+						delete[] sampledataout[i];
+					}
 					Pa_WriteStream(stream, allstream, samplespertick());
+					delete[] allstream;
 				}
 			}
 		}
@@ -505,7 +512,7 @@ int main()
 {
 	std::cout << sizeof(Note) << std::endl;
 	fgetc(stdin);
-	Module mod(std::fstream("nemesis.mod", std::ios_base::in | std::ios_base::binary));
+	Module mod(std::fstream("mercuty-wind.mod", std::ios_base::in | std::ios_base::binary));
 	mod.play();
 	fgetc(stdin);
     return 0;
