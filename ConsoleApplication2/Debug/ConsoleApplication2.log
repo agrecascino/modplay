@@ -4,11 +4,11 @@ c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplicatio
 c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(202): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
 c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(212): warning C4018: '<': signed/unsigned mismatch
 c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(322): warning C4018: '<': signed/unsigned mismatch
-c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(430): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(432): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
-c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(463): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
-c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(469): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
-c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(470): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
-c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(477): warning C4244: 'argument': conversion from 'double' to 'unsigned long', possible loss of data
+c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(432): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(434): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
+c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(465): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
+c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(471): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(472): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
+c:\users\anthony\documents\visual studio 2017\projects\modplay\consoleapplication2\consoleapplication2.cpp(479): warning C4244: 'argument': conversion from 'double' to 'unsigned long', possible loss of data
   ConsoleApplication2.vcxproj -> C:\Users\Anthony\Documents\Visual Studio 2017\Projects\modplay\Debug\ConsoleApplication2.exe
   ConsoleApplication2.vcxproj -> C:\Users\Anthony\Documents\Visual Studio 2017\Projects\modplay\Debug\ConsoleApplication2.pdb (Partial PDB)

@@ -512,7 +512,7 @@ int main()
 {
 	std::cout << sizeof(Note) << std::endl;
 	fgetc(stdin);
-	Module mod(std::fstream("mercuty-wind.mod", std::ios_base::in | std::ios_base::binary));
+	Module mod(std::fstream("break.mod", std::ios_base::in | std::ios_base::binary));
 	mod.play();
 	fgetc(stdin);
     return 0;
